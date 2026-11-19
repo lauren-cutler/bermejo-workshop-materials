@@ -1,0 +1,15 @@
+== List of basic Linux commands
+
+|====
+| command | description
+
+| ls | what files are in this folder (directory)
+| cd | go into a folder
+| cp | copy a file
+| mv | move a file into another folder and/or remane a file
+| rm | delete a file
+| pwd | which folder am I in
+| less | read a text file
+| nano | edit a file
+| man | get help; e.g., man ls
+|====
