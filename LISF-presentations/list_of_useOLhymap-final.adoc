@@ -1,0 +1,17 @@
+== Files and folders in La Plata example - useOLhymap-final
+
+|====
+| file and/or folder | description
+
+| LISF-x86_64.AppImage | container containing LDT, LIS, and LVT
+| LIS_RST_HYMAP2_router_201903312345.d01.nc | restart file for HyMAP router
+| LIS_RST_NOAHMP401_201903312345.d01.nc | restart file for LIS/NoahMP
+| OL-use-case.job | SLURM job submission script
+| forcing_variables.txt | a LIS configuration file
+| input | folder containing input data for LIS
+| lis.config.laplata.noahmp401.hymap.4km.OL.use-case | main LIS configuration file
+| lis_input.laplata.noahmp401.4km.nc | input parameter file (from LDT)
+| simple.job | a simple script for running LIS
+| tables/NOAHMP401_OUTPUT_LIST.TBL.dyn.full | a LIS configuration file
+| target_OL-use-case | folder containing output from LIS
+|====
