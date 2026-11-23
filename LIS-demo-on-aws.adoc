@@ -1,0 +1,32 @@
+== LIS demo on AWS
+
+The LISF-x86_64.AppImage container, scripts, input data, and output data are in the file named useOLhymap-final.tar.gz, which is available on NASA's data portal.
+
+=== How to download the demo files
+
+Here are three ways to download the useOLhymap-final.tar.gz file:
+
+.Number 1
+Using any web browser:
+
+* Go to https://portal.nccs.nasa.gov/lisdata_pub/Tutorials/ISAT_Bermejo_Workshop_Nov_2026/
+* Click on LIS-demo-on-aws
+* Click on useOLhymap-final.tar.gz
+
+.Number 2
+From the command line, run:
+
+* `curl -O https://portal.nccs.nasa.gov/lisdata_pub/Tutorials/ISAT_Bermejo_Workshop_Nov_2026/LIS-demo-on-aws/useOLhymap-final.tar.gz`
+
+.Number 3
+From the command line, run:
+
+* `wget https://portal.nccs.nasa.gov/lisdata_pub/Tutorials/ISAT_Bermejo_Workshop_Nov_2026/LIS-demo-on-aws/useOLhymap-final.tar.gz`
+
+=== How to extract the demo files
+
+LISF runs on a Linux-based computer.  You must transfer the useOLhymap-final.tar.gz file to a Linux-based computer or into a Linux-based virtual machine.
+
+Then you extract the files by running: `tar xzf useOLhymap-final.tar.gz`
+
+This will create a directory/folder named useOLhymap-final.  Inside are all the files presented in the hands-on demo.
